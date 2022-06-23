@@ -1,0 +1,27 @@
+.bar-title {
+    font-size: 1.75em;
+    color: #333;
+}
+
+.bar-wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.bar-title .bar-title-gray {
+    color: #989898
+}
+
+.bar-section-left {
+    float: left;
+    flex: 1;
+}
+
+.bar-section-right {
+    float: right;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
