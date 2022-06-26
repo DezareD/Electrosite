@@ -142,62 +142,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Font Awesome 6 Brands';
-    src: url('../fonts/FontAwesome6Brands-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Duotone Solid';
-    src: url('../fonts/FontAwesome6Duotone-Solid.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Pro';
-    src: url('../fonts/FontAwesome6Pro-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Pro';
-    src: url('../fonts/FontAwesome6Pro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome v4 Compatibility';
-    src: url('../fonts/FontAwesomev4Compatibility-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Pro Solid';
-    src: url('../fonts/FontAwesome6Pro-Solid.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Pro';
-    src: url('../fonts/FontAwesome6Pro-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
     font-family: 'SF Pro Display';
 }

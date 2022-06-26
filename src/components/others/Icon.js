@@ -1,6 +1,6 @@
 function Icon(props) {
     return (
-        <i className={props.data}></i>
+        <i className={props.data + " " + props.className}></i>
     );
 }
 
