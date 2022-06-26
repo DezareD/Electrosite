@@ -80,3 +80,18 @@
     margin: 0 auto;
     border-radius: 6px;
 }
+
+@media only screen and (max-width: 1224px) {
+    .form-text-left {
+        display: none!important;
+    }
+
+    .form-form-outer {
+        width: 100%!important;
+        left: 0!important;
+    }
+
+    .form-outer {
+        height: 400px;
+    }
+}
