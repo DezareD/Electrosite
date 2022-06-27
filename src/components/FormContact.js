@@ -15,6 +15,31 @@ function FormContact() {
                     </div>
                     <div className='form-form-outer'>
                         <div className='form-block'>
+                            <form className='form-factor'>
+                                <div className='form-contact-top'>
+                                    <div>
+                                        <p className='form-label'>Ваше имя</p>
+                                        <input className='form-input' type="text" name="name" placeholder='Антон' />
+                                    </div>
+                                    <div>
+                                        <p className='form-label'>Ваша почта</p>
+                                        <input className='form-input' type="text" name="name" placeholder='example@gmail.com' />
+                                    </div>
+                                </div>
+
+                                <div className='form-contact-medium'>
+                                    <div>
+                                        <p className='form-label'>Сообщение</p>
+                                        <textarea className='form-input big' type="text" name="name" placeholder='Задайте ваш вопрос' />
+                                    </div>
+                                </div>
+
+                                <div className='form-contact-bottom'>
+                                    <p className='form-label'>Мы ответим на ваш вопрос в течении 24 часов!</p>
+                                    <div className='button'>Отправить</div>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>

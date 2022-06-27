@@ -22,8 +22,9 @@ import '../styles/main.css'
 function Main() {
     return (
         <div>
+            <div class="header finisher-header" style={{ width: '100%' }}>
+            <Bar></Bar>
             <Container>
-                <Bar></Bar>
                 <Swiper
                     modules={[Navigation, Pagination]}
                     spaceBetween={50}
@@ -121,12 +122,13 @@ function Main() {
 
                 <HeaderText>Мы свяжемся с вами</HeaderText>
             </Container>
+            </div>
             <FormContact />
             <div className='footer-outer'>
                 <Container>
                     <div className='footer-outer'>
-                    <p>ЭЛЕКТРОСТРОЙ</p>
-                    <p>2022г.</p>
+                        <p>ЭЛЕКТРОСТРОЙ</p>
+                        <p>2022г.</p>
                     </div>
                 </Container>
             </div>

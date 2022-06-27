@@ -3,6 +3,13 @@
     color: #333;
 }
 
+
+@media only screen and (max-width: 1224px) {
+    .bar-title {
+        font-size: 1.75em!important;
+    }
+}
+
 .bar-wrapper {
     height: 80px;
     display: flex;
@@ -28,6 +35,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .bar-section-right {
+        display: none!important;
+    }
 }
 
 .bar-item-username {
@@ -89,4 +102,19 @@
 
 .bar-logo path {
     fill: #989898;
+}
+
+.bar-wrapper .blur {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bar-wrapper-outer {
+    position: relative;
+    margin-bottom: 20px;
 }
