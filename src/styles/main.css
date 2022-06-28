@@ -205,3 +205,9 @@
     background-color: #81a2d3;
     justify-content: space-between;
 }
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}

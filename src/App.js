@@ -2,10 +2,12 @@ import Main from './layouts/Main'
 import './styles/clear.css'
 import './styles/fonts.css'
 import './styles/libs/fontawesome/all.min.css'
+import RouterNavigator from './layouts/Router'
 
 function App() {
   return (
-    <Main></Main>
+    <RouterNavigator>
+    </RouterNavigator>
   );
 }
 

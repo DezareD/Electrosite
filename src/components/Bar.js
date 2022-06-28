@@ -3,6 +3,8 @@ import Icon from '../components/others/Icon'
 import { ReactComponent as LogoSite } from '../imgs/Logo.svg';
 import Container from './others/Container';
 
+import { Link } from "react-router-dom";
+
 function Bar() {
     return (
         <div className='bar-wrapper-outer'>
@@ -17,9 +19,9 @@ function Bar() {
                         <div className='bar-item-username'>Павел</div>
                         <div className='bar-item-usericon'><Icon data="far fa-user" /></div>
                     </div>
-                    <div className='bar-item-url'>Главная</div>
-                    <div className='bar-item-url'>О нас</div>
-                    <div className='bar-item-url'>Контакты</div>
+                    <div className='bar-item-url'><Link to="/">Главная</Link></div>
+                    <div className='bar-item-url'><Link to="/about">О нас</Link></div>
+                    <div className='bar-item-url'><Link to="/contact">Контакты</Link></div>
                     <div className='bar-itemicon-wrapper'>
                         <Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/>
                         <Icon className='bar-itemicon primary' data="fa-regular fa-phone"/>
