@@ -35,7 +35,7 @@ function FormContact() {
                                 </div>
 
                                 <div className='form-contact-bottom'>
-                                    <p className='form-label'>Мы ответим на ваш вопрос в течении 24 часов!</p>
+                                    <p className='form-label'>Мы ответим на ваш вопрос в течении часа!</p>
                                     <div className='button'>Отправить</div>
                                 </div>
 
