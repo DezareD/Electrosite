@@ -21,10 +21,10 @@ function Bar() {
                     </div>
                     <div className='bar-item-url'><Link to="/">Главная</Link></div>
                     <div className='bar-item-url'><Link to="/about">О нас</Link></div>
-                    <div className='bar-item-url'><Link to="/contact">Контакты</Link></div>
+                    <div className='bar-item-url'><Link to="/contacts">Контакты</Link></div>
                     <div className='bar-itemicon-wrapper'>
-                        <Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/>
-                        <Icon className='bar-itemicon primary' data="fa-regular fa-phone"/>
+                        <a href="mailto:example@gmail.com"><Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/></a>
+                        <a href="tel:+7999999999"><Icon className='bar-itemicon primary' data="fa-regular fa-phone"/></a>
                     </div>
                 </div>
                 <div class="blur"></div>

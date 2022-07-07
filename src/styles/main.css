@@ -211,3 +211,38 @@ a {
     color: #333;
     font-weight: 500;
 }
+
+b {
+    font-weight: bold!important;
+}
+
+.review-list-outer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.review-item {
+    padding: 35px;
+    background: #bfbfb936;
+    border-radius: 14px;
+}
+
+.review-lay {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: .7em;
+    align-items: center;
+}
+
+.review-user-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.review-header-block {
+    margin-bottom: 3em;
+}
