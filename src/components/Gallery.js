@@ -1,28 +1,30 @@
 import PhotoAlbum from "react-photo-album";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const photos = [
     {
-        src: "https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=",
+        src: "https://cdn.profi.ru/s3/b0/pfiles/9ceb17c3d296f7e7a0b4a67ef5e2682b.jpg-profi_w1500.jpg",
         width: 647,
         height: 647
     },
     {
-        src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+        src: "https://cdn.profi.ru/s3/b0/pfiles/187e1c6ceebd9c461b24be6f496b8ab6.jpg-profi_w1500.jpg",
         width: 380,
         height: 319
     },
     {
-        src: 'https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+        src: 'https://cdn.profi.ru/s3/b1/pfiles/a35a164ca1ce774b4f0436c02c9b8831.jpg-profi_w1500.jpg',
         width: 513,
         height: 319
     },
     {
-        src: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg',
+        src: 'https://cdn.profi.ru/s3/b0/pfiles/31751d871c80524c8cf1f0f9c506da0c.jpg-profi_w1500.jpg',
         width: 513,
         height: 312
     },
     {
-        src: 'https://d3nn873nee648n.cloudfront.net/HomeImages/Concept-and-Ideas.jpg',
+        src: 'https://cdn.profi.ru/s3/b1/pfiles/8722a1ff088f4aa873b964651e03fdaf.jpg-profi_w1500.jpg',
         width: 380,
         height: 312
     }
@@ -30,6 +32,11 @@ const photos = [
 
 export default function Gallery() {
     return (
-        <PhotoAlbum layout="columns" columns={3} spacing={0} photos={photos} />
+        <PhotoAlbum renderPhoto={RenderPhoto} layout="columns" columns={3} spacing={0} photos={photos} />
     );
 }
+
+function RenderPhoto({ imageProps }) {
+    const { src, alt, srcSet, sizes, ...restImageProps } = imageProps;
+    return <Zoom><img src={src} alt={alt} {...(srcSet ? { srcSet, sizes } : null)} {...restImageProps} /></Zoom>;
+};

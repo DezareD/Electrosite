@@ -13,7 +13,7 @@ import Icon from '../components/others/Icon'
 import Chart from '../components/Chart'
 
 import FormContact from '../components/FormContact'
-
+import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 
 import 'swiper/css';
@@ -82,8 +82,8 @@ function Main() {
                             animate={{ y: 0, opacity: 1 }}
                         >
                             <div class="infoblock">
-                                <Icon data="fa-duotone fa-ribbon"></Icon>
-                                <p>Ленточный фундамент</p>
+                                <Icon data="fa-duotone fa-block-brick-fire"></Icon>
+                                <p> УШП ФУНДАМЕНТ</p>
                             </div>
                         </motion.div>
                         <motion.div
@@ -91,8 +91,8 @@ function Main() {
                             animate={{ y: 0, opacity: 1 }}
                         >
                             <div class="infoblock">
-                                <Icon data="fa-duotone fa-ribbon"></Icon>
-                                <p>Ленточный фундамент</p>
+                                <Icon data="fa-duotone fa-hammer-crash"></Icon>
+                                <p>Строительство монолитных стен и полов, монтаж перекрытий</p>
                             </div>
                         </motion.div>
                         <motion.div
@@ -100,8 +100,8 @@ function Main() {
                             animate={{ y: 0, opacity: 1 }}
                         >
                             <div class="infoblock">
-                                <Icon data="fa-duotone fa-ribbon"></Icon>
-                                <p>Ленточный фундамент</p>
+                                <Icon data="fa-duotone fa-house-building"></Icon>
+                                <p>Монолитное малоэтажное строительство</p>
                             </div>
                         </motion.div>
                         <motion.div
@@ -109,8 +109,8 @@ function Main() {
                             animate={{ y: 0, opacity: 1 }}
                         >
                             <div class="infoblock">
-                                <Icon data="fa-duotone fa-ribbon"></Icon>
-                                <p>Ленточный фундамент</p>
+                                <Icon data="fa-duotone fa-stairs"></Icon>
+                                <p>ВОЗВЕДЕНИЕ МОНОЛИТНЫХ ЛЕСТНИЦ ИЗ ЖЕЛЕЗОБЕТОНА</p>
                             </div>
                         </motion.div>
                     </div>
@@ -122,7 +122,7 @@ function Main() {
                     >
                         <Gallery></Gallery>
                     </motion.div>
-                    <p className='gallery-info'>Ещё <span>123</span> изоображения...</p>
+                    <Link to="/gallery" className='gallery-info'>Ещё <span>24</span> изоображения...</Link>
                     <HeaderText>Почему монолитные работы это выгодно?</HeaderText>
                     <div className='infoblock-outer'>
                         <InfoBlock></InfoBlock>

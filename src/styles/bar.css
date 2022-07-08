@@ -6,7 +6,12 @@
 
 @media only screen and (max-width: 1224px) {
     .bar-title {
-        font-size: 1.75em!important;
+        font-size: 1.1em!important;
+    }
+
+    .bar-section-left svg {
+        width: 30px!important;;
+        height: 30px!important;;
     }
 }
 
@@ -37,9 +42,17 @@
     align-items: center;
 }
 
+.bar-section-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 720px) {
     .bar-section-right {
         display: none!important;
+    }
+
+    .bar-section-mobile {
+        display: block;
     }
 }
 
@@ -117,4 +130,63 @@
 .bar-wrapper-outer {
     position: relative;
     margin-bottom: 20px;
+}
+
+.bar-section-mobile i {
+    cursor: pointer;
+}
+
+.app-menu {
+  color: #333;
+  height: 100vh;
+  width: 20rem;
+  background-color: white;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: 0.3s;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+  
+.menu-open {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.bar-section-menu {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.bar-logo-mini {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-logo-section {
+    display: flex;
+    gap: 10px;
+}
+
+.bar-itemicon-wrapper-menu {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.bar-itemicon-wrapper-menu a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
