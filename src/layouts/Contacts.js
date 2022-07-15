@@ -18,17 +18,17 @@ function Contacts() {
                     <HeaderText>Контакты</HeaderText>
                     <br />
                     <AnimatedText changeX={-200} duration={0.4}>
-                        <p className="information-text-contacts"><b><Icon data='far fa-city'></Icon>  Москва</b></p>
+                        <p className="information-text-contacts"><b><Icon data='far fa-city'></Icon>  143500, Россия, Московская область, г. о. Истра, г. Истра, ул. Рябкина, д1, пом. 2Б.</b></p>
                     </AnimatedText>
                     <AnimatedText changeX={-200} duration={0.4}>
-                        <p className="information-text-contacts"><b><Icon data='far fa-city'></Icon>  Москва</b></p>
+                        <p className="information-text-contacts"><b><Icon data='far fa-phone'></Icon>  +7 915 459-81-65, Евгений</b></p>
                     </AnimatedText>
                     <AnimatedText changeX={-200} duration={0.4}>
-                        <p className="information-text-contacts"><b><Icon data='far fa-city'></Icon>  Москва</b></p>
+                        <p className="information-text-contacts"><b><Icon data='far fa-phone'></Icon>  +7 925 448‑32‑25, Владимир</b></p>
                     </AnimatedText>
                     <br /><br /><br />
                     <AnimatedText changeX={-200} duration={0.4}>
-                        <p className="information-text-contacts"><b><Icon data='far fa-city'></Icon>  Москва</b></p>
+                        <p className="information-text-contacts"><b><Icon data='far fa-mailbox'></Icon>  ets@elitestroyservice.com ИЛИ elitstroyservis1978@mail.ru</b></p>
                     </AnimatedText>
                     <br />
                     <HeaderText>Мы свяжемся с вами</HeaderText>

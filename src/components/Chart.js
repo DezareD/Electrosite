@@ -8,16 +8,14 @@ export const data = {
   datasets: [
     {
       label: '# of Votes',
-      data: [12, 5, 4],
+      data: [98.8, 1.2],
       backgroundColor: [
-        'rgba(129, 162, 211, 1)',
-        'rgba(196, 201, 208, 1)',
-        'rgba(91, 91, 91, 1)'
+        'rgba(25,151,0, .5)',
+        'rgba(255,87,34, .5)'
       ],
       borderColor: [
-        'rgba(129, 162, 211, 1)',
-        'rgba(196, 201, 208, 1)',
-        'rgba(91, 91, 91, 1)'
+        'rgba(25,151,0, .8)',
+        'rgba(255,87,34, .8)'
       ],
       borderWidth: 1,
     },
@@ -26,6 +24,6 @@ export const data = {
 
 export default function Chart() {
   return (
-        <Pie options={{ maintainAspectRatio: false }} data={data} />
+      <Pie options={{ maintainAspectRatio: false }} data={data} />
   );
 }

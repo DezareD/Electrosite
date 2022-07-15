@@ -19,8 +19,8 @@ export default function Menu(props) {
             <div className='bar-item-url'><Link to="/about">О нас</Link></div>
             <div className='bar-item-url'><Link to="/contacts">Контакты</Link></div>
             <div className='bar-itemicon-wrapper-menu'>
-                <a href="mailto:example@gmail.com"><Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/><p>example@gmail.com</p></a>
-                <a href="tel:+7999999999"><Icon className='bar-itemicon primary' data="fa-regular fa-phone"/><p>+7999999999</p></a>
+                <a href="mailto:ets@elitestroyservice.com"><Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/><p>ets@elitestroyservice.com</p></a>
+                <a href="tel:+79154598165"><Icon className='bar-itemicon primary' data="fa-regular fa-phone"/><p>+7 915 459-81-65</p></a>
             </div>
         </div>
     </div>

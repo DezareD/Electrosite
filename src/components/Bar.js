@@ -27,21 +27,22 @@ function Bar() {
             <div className='bar-wrapper-outer'>
                 <Container>
                 <div className='bar-wrapper'>
-                    <div className='bar-section-left'>
+                    <Link to="/" className='bar-section-left'>
                         <LogoSite className='bar-logo'></LogoSite>
                         <p className="bar-title">ЭЛИТСТРОЙ<span className='bar-title-gray'>СЕРВИС</span></p>
-                    </div>
+                    </Link>
                     <div className='bar-section-right'>
                         <div className='bar-item-userblock'>
-                            <div className='bar-item-username'>Павел</div>
                             <div className='bar-item-usericon'><Icon data="far fa-user" /></div>
+                            <div className='bar-item-username'>Вход</div>
+                            <div className='bar-item-username'>Регистрация</div>
                         </div>
                         <div className='bar-item-url'><Link to="/">Главная</Link></div>
                         <div className='bar-item-url'><Link to="/about">О нас</Link></div>
                         <div className='bar-item-url'><Link to="/contacts">Контакты</Link></div>
                         <div className='bar-itemicon-wrapper'>
-                            <a href="mailto:example@gmail.com"><Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/></a>
-                            <a href="tel:+7999999999"><Icon className='bar-itemicon primary' data="fa-regular fa-phone"/></a>
+                            <a href="mailto:ets@elitestroyservice.com"><Icon className='bar-itemicon secondary' data="fa-regular fa-envelope-dot"/></a>
+                            <a href="tel:+79154598165"><Icon className='bar-itemicon primary' data="fa-regular fa-phone"/></a>
                         </div>
                     </div>
                     <div class="bar-section-mobile">
