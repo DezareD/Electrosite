@@ -149,19 +149,11 @@ function Main() {
                     <HeaderText>Почему именно мы?</HeaderText>
                     <div className='infoblock-outer'>
                         <div style={{ flex: 1 }}>
-                            
+                            <div className='iconText-block'>
+                                <Icon data="fa-duotone fa-file-certificate"></Icon>
+                            </div>
                         </div>
-                        <div style={{ flex: 1 }} className='text-sep-outer-block'>
-                            <AnimatedText changeX={-150} duration={1}>
-                                <TextSep>Нам доверяют 98.8% Клиентов!</TextSep>
-                            </AnimatedText>
-                        </div>
-                    </div>
-                    <div className='infoblock-outer'>
-                        <div style={{ flex: 1 }}>
-                            
-                        </div>
-                        <div style={{ flex: 1 }} className='text-sep-outer-block'>
+                        <div style={{ flex: 3 }} className='text-sep-outer-block'>
                             <AnimatedText changeX={-150} duration={1}>
                                 <TextSep>Клиент при выборе между частными лицами и строительными компаниями часто руководствуется желанием сэкономить или рекомендациями своих близких. Важно понимать основное различие между этими двумя типами застройщиков. Компания всегда предоставляет гарантию и договор клиенту, в отличие от частных лиц. Наша компания готова Вам предоставить гарантию на все типы монолитных работ сроком на 10 лет.</TextSep>
                             </AnimatedText>
@@ -170,9 +162,11 @@ function Main() {
 
                     <div className='infoblock-outer'>
                         <div style={{ flex: 1 }}>
-                            <Chart></Chart>
+                            <div className='iconText-block'>
+                                <Icon data="fa-duotone fa-treasure-chest"></Icon>
+                            </div>
                         </div>
-                        <div style={{ flex: 1 }} className='text-sep-outer-block'>
+                        <div style={{ flex: 3 }} className='text-sep-outer-block'>
                             <AnimatedText changeX={-150} duration={1}>
                                 <TextSep>Основным нашим преимуществом мы считаем высокий темп и качество выполнения. Достигается это за счет продуманной логистики по Москве и Московской области. Мы оперативно приступаем к работе и имеем список проверенных поставщиков сырья по всей территории области.</TextSep>
                             </AnimatedText>
@@ -181,8 +175,11 @@ function Main() {
 
                     <div className='infoblock-outer'>
                         <div style={{ flex: 1 }}>
+                            <div className='iconText-block'>
+                                <Icon data="fa-duotone fa-comments-dollar"></Icon>
+                            </div>
                         </div>
-                        <div style={{ flex: 1 }} className='text-sep-outer-block'>
+                        <div style={{ flex: 3 }} className='text-sep-outer-block'>
                             <AnimatedText changeX={-150} duration={1}>
                                 <TextSep>Индивидуальный подход к каждому Клиенту в современном мире очень распространён. Тем не менее мы считаем это обязательным. Поэтому мы озвучиваем предварительную стоимость в день обращения, выезжаем бесплатно на место будущего строительства, предоставляем свою опалубку, отчитываемся за каждый этап выполненных работ.</TextSep>
                             </AnimatedText>
