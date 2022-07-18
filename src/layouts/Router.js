@@ -6,9 +6,12 @@ import About from '../layouts/About'
 import Contacts from "./Contacts";
 import GalleryPage from "./Gallery";
 
+import ScrollButton from "../components/others/ScrollButton";
+
 const RouterNavigator = (props) => (
     <BrowserRouter>
         {props.children}
+        <ScrollButton />
         <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />

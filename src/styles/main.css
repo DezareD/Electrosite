@@ -300,3 +300,20 @@ b {
     padding: 20px;
     border-radius: 12px;
 }
+
+.arrow-bottom-inner {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    z-index: 1000000;
+    background-color: #81a2d3;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}

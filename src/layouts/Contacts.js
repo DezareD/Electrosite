@@ -28,7 +28,7 @@ function Contacts() {
                     </AnimatedText>
                     <br /><br /><br />
                     <AnimatedText changeX={-200} duration={0.4}>
-                        <p className="information-text-contacts"><b><Icon data='far fa-mailbox'></Icon>  ets@elitestroyservice.ru ИЛИ elitstroyservis1978@mail.ru</b></p>
+                        <p className="information-text-contacts"><b><Icon data='far fa-mailbox'></Icon>  ets@elitestroyservice.ru</b></p>
                     </AnimatedText>
                     <br />
                     <HeaderText>Мы свяжемся с вами</HeaderText>
